@@ -1,0 +1,72 @@
+.form-group {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding: 1.2rem 1rem;
+	border: 1px solid #222222;
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+section > div {
+	margin-bottom: 1rem;
+}
+
+section > h3 {
+	position: absolute;
+	top: -31px;
+	left: 35px;
+	background-color: white;
+}
+
+section:first-child {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section:first-child > div {
+	flex-basis: 50%;
+}
+
+section:first-child input {
+	width: 85%;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+label > span,
+.warning {
+	color: red;
+}
+
+input,
+select {
+	border-radius: 1rem;
+	width: 40%;
+	padding: 0.2rem 1rem;
+}
+
+select {
+	width: 46%;
+}
+
+.date-input {
+	width: 18rem !important;
+}
+
+button {
+	border: 1px solid transparent;
+	border-radius: 1px;
+	padding: 0.5rem 1.5rem;
+	color: white;
+	font-size: 1rem;
+	background-color: #043a81;
+	cursor: pointer;
+}
